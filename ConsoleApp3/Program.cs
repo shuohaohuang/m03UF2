@@ -12,7 +12,7 @@ namespace ConsoleApp3
 {
     public class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             const string Msg = "How may numbers do you want in ?";
             const string ResultMsg = "The product of all numbers in the list is ";
@@ -30,7 +30,6 @@ namespace ConsoleApp3
 
         public static void IntArray(ref int[] array, int min, int max,ref int tries )
         {
-            int[] wrong = new int[array.Length];
             for (int i = 0; i < array.Length&&tries!=0; i++)
             {
                 int input = Convert.ToInt32(Console.ReadLine());
