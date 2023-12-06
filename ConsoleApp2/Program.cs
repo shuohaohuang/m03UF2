@@ -12,6 +12,7 @@ namespace Ej14
             const string EvenSemMsg = "The sum of even digits are  {0}";
             int insert = GetInt();
             int digits = CountDigits(insert);
+            //comment
             Console.WriteLine(NumsOfDigitsMsg, insert, digits);
             Console.WriteLine(OddSumMsg, SumOdd(insert, digits, true));
             Console.WriteLine(EvenSemMsg, SumOdd(insert, digits, false));
