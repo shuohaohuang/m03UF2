@@ -10,6 +10,7 @@ namespace ConsoleApp2
 {
     public class ej15
     {
+
         static void Main(string[] args)
         {
             const string Msg = "Insert a year date";
