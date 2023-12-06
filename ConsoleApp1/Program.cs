@@ -13,6 +13,7 @@ namespace ConsoleApp2
 
         static void Main(string[] args)
         {
+
             const string Msg = "Insert a year date";
             const string LeapYearMsg = "Is a leap year";
             const string NoLeapYearMsg = " Isn't a leap  year";
