@@ -10,6 +10,7 @@ namespace Ej14
             const string NumsOfDigitsMsg = "{0} Has got {1} digit";
             const string OddSumMsg = "The sum of odd digits are {0}";
             const string EvenSemMsg = "The sum of even digits are  {0}";
+            Console.WriteLine(InsertMsg);
             int insert = GetInt();
             int digits = CountDigits(insert);
             //comment
